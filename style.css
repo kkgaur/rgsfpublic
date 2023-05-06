@@ -1,0 +1,62 @@
+/* This controls the width of the fluid width layouts */
+.fluid
+{
+width: 80%;
+}
+/* This controls the width of the fixed width layouts */
+.fixed
+{
+max-width: 950px;
+}
+
+/* Basic Stuff */
+body
+{
+background-color: #eee;
+font-size: 12pt;
+font-family:'Barlow Condensed', sans-serif;
+margin: 7px;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: "Courier New", "Lucida Console",  monospace;
+    font-style: oblique;
+}
+h2 {
+    color:#3CAEA3;
+}
+    
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #3CAEA3;
+  color: white;
+}
+.img {
+float:center;
+margin: 15px;
+display: block;
+width:97%;
+border-radius:50%;
+border-style:ridge;
+border-color:#3CAEA3;
+}	
