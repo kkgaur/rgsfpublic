@@ -1,189 +1,46 @@
-<html>
-<head>
-<link rel="stylesheet" type = "text/css" href="style/style.css">
-<style>
-
-/* Full-width input fields */
-input[type=text], input[type=password] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
-}
-
-/* Set a style for all buttons */
-button {
-  background-color: #04AA6D;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-}
-
-button:hover {
-  opacity: 0.8;
-}
-
-/* Extra styles for the cancel button */
-.cancelbtn {
-  width: auto;
-  padding: 10px 18px;
-  background-color: #040404;
-}
-
-/* Center the image and position the close button */
-.imgcontainer {
-  text-align: center;
-  margin: 24px 0 12px 0;
-  position: relative;
-}
-
-img.avatar {
-  width: 40%;
-  border-radius: 50%;
-}
-
-.container {
-  padding: 16px;
-}
-
-span.psw {
-  float: right;
-  padding-top: 16px;
-}
-
-/* The Modal (background) */
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  padding-top: 60px;
-}
-
-/* Modal Content/Box */
-.modal-content {
-  background-color: #fefefe;
-  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
-  border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
-}
-
-/* The Close Button (x) */
-.close {
-  position: absolute;
-  right: 25px;
-  top: 0;
-  color: #000;
-  font-size: 35px;
-  font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-  color: red;
-  cursor: pointer;
-}
-
-/* Add Zoom Animation */
-.animate {
-  -webkit-animation: animatezoom 0.6s;
-  animation: animatezoom 0.6s
-}
-
-@-webkit-keyframes animatezoom {
-  from {-webkit-transform: scale(0)} 
-  to {-webkit-transform: scale(1)}
-}
-  
-@keyframes animatezoom {
-  from {transform: scale(0)} 
-  to {transform: scale(1)}
-}
-
-/* Change styles for span and cancel button on extra small screens */
-@media screen and (max-width: 300px) {
-  span.psw {
-     display: block;
-     float: none;
-  }
-  .cancelbtn {
-     width: 100%;
-  }
-}
-</style>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<link rel="stylesheet" type="text/css" href="style/style.css">
 </head>
 <body>
-<div class="heading">Raginee Gaur Smriti Foundation</div>
+<div class="heading">Raginee Gaur Smriti Foundation </div>
+<!-- Menus Start-->
 <div class="topnav">
-    <a class ="active" href="https://www.rgsf.org">Home</a>
+    <a href="https://www.rgsf.org">Home</a>
     <a href="https://www.rgsf.org/programs">Support Programs</a>
     <a href="#">Self-help</a>
     <a href="#">Beneficiaries</a>
-    <a href="https://www.rgsf.org/inspire">Our Inspiration</a>
+    <a class="active" href="https://www.rgsf.org/inspire">Our Inspiration</a>
     <a href="#">Contributors</a>
-    <a href="#" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</a>
-        <div id="id01" class="modal">
-        <form class="modal-content animate" action="logged.php" method="post">
-        <div class="imgcontainer">
-            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-            <img src="raginee.jpeg" alt="Avatar" class="avatar">
-            </div>
-
-        <div class="container">
-        <label for="uname"><b>Username</b></label>
-        <input type="text" placeholder="Enter Username" name="uname" required>
-        <label for="psw"><b>Password</b></label>
-        <input type="password" placeholder="Enter Password" name="psw" required>
-        <button type="submit">Login</button>
-        </div>
-
-        <div class="container" style="background-color:#f1f1f1">
-        <button type="button" onclick="window.location.href='https://www.rgsf.org/register'" class="cancelbtn">Register Me!</button>
-        <button type="button" onclick="window.location.href='https://www.rgsf.org/forgot'" class="cancelbtn">Forgot my Password?</button>
-        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Close Anyway!</button>
-       
-        </div>
-        </form>
-        </div>
-
-        <script>
-        // Get the modal
-        var modal = document.getElementById('id01');
-
-        // When the user clicks anywhere outside of the modal, close it
-        window.onclick = function(event) {
-        if (event.target == modal) {
-        modal.style.display = "none";
-        }
-        }
-        </script>
-    
+    <a href="#">Registration</a>
+    <a href="#">Login</a>
 </div>
-
+<!--end of Menu -->
 <div class="heading2">Our Inspiration:</div>
-
-<img src="raginee.jpeg" class="img"> 
-
-<div class="para">We get our inspiration from the short and eventful life of beloved Raginee Gaur (1987 - 2022). She was the loving daugther and sister of a large family but fate ended up her being very lonely. The sudden demise of her has created a vacuum in our lives and therefore we attempt to receive some gratification by supporting those who face similar situations.   </div>
-<div class="heading2">Objectives:</div> 
-<ul>
-  <li>Helping single females who are in the age bracket of 18 Years to 36 Years in higher education; professional training; excelling in sports, arts, culture; medical help for self or childern; support in raising of childern as single parent; providing legel aid in defending cases etc. </li>
-  <li>Promoting the social concern for creating a support system for single females which often face loneliness, dispair and distress due to varied reasons.</li>
-  <li>Encourging and felicitating the achievers and role models specially single females who have overcome all odds towards setting an example.</li>
-  <li>Providing all possible help in arranging matrimonial alliance for single females in case if they desire.</li>
-  <li>Taking up all activities not listed here which can help or promote any of the objectives as given above.</li>
-</ul>
-<h4>This organisation is taking shape. Those who want to contribute or play key roles may contact through social media handles.</h4>
+<img src="raginee2.jpeg" class="img2">
+<div class="para">Raginee Gaur was a very ambitious girl from the beginning, a multi faceted personality and wanted to achieve a lot of goals. She was fearless, extrovert and always ready to try something challenging. </div>
+<div class="para">She was always in a hurry as if she knew that time is running out for her. She was very strong from outside but inside her was a very emotional and divine soul. She was very kind to animals and children, and trusted anyone whether friend or foe. </div>
+<div class="para">Born and brought up in a very reputed family, she had all the good qualities and acquired many expertises from the very beginning. She learnt to play hockey on skates (Roller Hockey) during early teenage and played state level tournaments. She was very good in playing chess and dart games and won a few tournaments. She was also a very good pencil drawing artist with ability to make real-life portraits. She had a deep interest in spirituality, astrology and creativeness, but could not save herself from the addiction of partying and smoking. </div>
+<div class="para">She had many friends right from her childhood but slowly and gradually all have moved on leaving her in despair. She lived her life on own terms, and left this world as she has come, alone...</div>
+<div class="para">She had a pet named "Ninni" (Cat) which she had found on the streets, and kept it for eight years. Perhaps this is the longest association anyone had with her, other than parents and sibling.</div> 
+<div class="para">In later part of her life she became obsessed with music. She acquired professional training in disk jockeying  and started creating her own audio tracks. Some of them are hosted on mix-cloud and You-Tube.</div>
+<table>
+<tr><td colspan="4"><div id="calign"><b><u>Brief Dossier of Raginee Gaur</u></b></div></td> </tr>
+<tr><td rowspan= "12" class ="td3"><img src="raginee3.jpeg" class="img3"></td><td class="td1">Date of Birth</td><td>:</td><td class="td2">31st August 1987</td></tr>
+<tr><td class="td1">Place of Birth</td><td>:</td><td class="td2">Joura (Madhya Pradesh)</td></tr>
+<tr><td class="td1">First School</td><td>:</td><td class="td2">Sun Rise Public School, Delhi</td></tr>
+<tr><td class="td1">10th Grade School</td><td>:</td><td class="td2"><a href="https://stxaviers.com/">St. Xaviers Senior Secondary School, Chandigarh</a></td></tr>
+<tr><td class="td1">12th Grade School</td><td>:</td><td class="td2">Government Senior Secondary School, Sector-46, Chandigarh</td></tr>
+<tr><td class="td1">Higher Education</td><td>:</td><td class="td2"><a href="https://gcg11.ac.in/">Post Graduate Government College for Girls (GCG), Chandigarh</a><br><a href="https://www.nifd.net">Inter National Institute of Fashion & Design (INIFD), Chandigarh</a><br><a href="https://newhorizonindia.edu/">New Horizon College of Management, Bengaluru</a></td></tr>
+<tr><td class="td1">Professional Trainings</td><td>:</td><td class="td2">Disk Jokey -<a href="https://www.beatworx.in/">Beatworx Studio</a><br>Airhostess -<br>Roller Skating - <br>Sketching and Drawing - <br>Karate - </td></tr>
+<tr><td class="td1">Career</td><td>:</td><td class="td2">Tommy Hilfiger, Lifestyle Adarsh <br> <a href="https://in.burberry.com/">Burberry India Pvt. Ltd.</a><br><a href="https://www.breakbounce.com/">Breakbounce India Pvt. Ltd.</a><br><a href="https://www.pokersaint.com">Pacific Gaming Pvt. Ltd. (PokerSaint)</a></td></tr>
+<tr><td class="td1">Experties</td><td>:</td><td class="td2">Visual Merchandising, Disk Jockey, Retailing, Chess Player, Roller Hockey Player, Dart Game Player, Pencil Drawing Artist, Karate Green Belt</td></tr>
+<tr><td class="td1">Date of Death</td><td>:</td><td class="td2">12th February 2022</td></tr>
+<tr><td class="td1">Place of Death</td><td>:</td><td class="td2">Bengaluru</td></tr>
+<tr><td class="td1">Cause</td><td>:</td><td class="td2">Severe Lungs Infection (During 4th Wave of Covid-19)</td></tr>
+</table>
+<div id="footer">
+All rights are reserved by respective owners. Reference of names on this page is not intended to cause any harm to their reputation. Please contact us in case if any modification is required.
+</div>
 </body>
 </html>
